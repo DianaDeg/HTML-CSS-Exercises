@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+}
+.container {
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color: white;
+}
+
+main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border: 4px rgb(0,50,0) solid;
+  height: 350px;
+}
+a {
+  color: green;
+}
+nav {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightgreen;
+  border-top: 4px rgb(0,50,0) solid;
+  border-left: 4px rgb(0,50,0) solid;
+  border-right: 4px rgb(0,50,0) solid;
+  color: green;
+  height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+nav ul{
+  padding: 0;
+  word-spacing: 15px;
+  text-align: center;
+  background-color: lightgreen;
+  position: relative;
+  top: 8px;
+}
+nav ul li{
+  word-spacing: 1px;
+  display: inline-block;
+}
+header {
+  word-spacing: 0.03px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+  background-color: rgb(0,50,0);
+  font-family: sans-serif;
+  font-size: 30px;
+  height: 85px;
+  
+}
+header span{
+ 	text-shadow:
+		-1px -1px 0 lightgreen,
+		1px -1px 0 lightgreen,
+		-1px 1px 0 lightgreen,
+		1px 1px 0 lightgreen;
+}
+
+footer {
+  text-align: center;
+  background-color: lightgreen;
+  border-bottom: 4px rgb(0,50,0) solid;
+  border-left: 4px rgb(0,50,0) solid;
+  border-right: 4px rgb(0,50,0) solid;
+  font-family: sans-serif;
+  font-size: 16px;
+  height: 40px;
+}
+
+footer ul {
+  margin: auto;
+  padding: 0;
+  position: relative;
+  top: 10px;
+}
+footer ul li:nth-of-type(3) {
+  color: blue;
+  text-decoration: underline;
+}
+footer ul li{
+  display: inline-block;
+}
+footer ul li:after { 
+  content: " \2022 "; 
+}
+footer ul li:last-child:after { 
+  content: ""; 
+}

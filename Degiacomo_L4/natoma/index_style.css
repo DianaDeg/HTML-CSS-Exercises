@@ -1,0 +1,22 @@
+/* Styles go here */
+
+main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border: 4px rgb(0,50,0) solid;
+  height: 350px;
+}
+main img {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main p {
+  padding: 10px;
+  font-family: sans-serif;
+}
+

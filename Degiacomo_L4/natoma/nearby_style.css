@@ -1,0 +1,28 @@
+p:before {
+    content: "  \2022       "; 
+}
+p{
+  padding-left: 30px;
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+  font-size: 30px;
+  display: block;
+  text-align: center;
+}
+figcaption {
+  color: green;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: underline;
+  text-align: center;
+}
+aside {
+  float: right;
+  margin-right: 20px;
+}
